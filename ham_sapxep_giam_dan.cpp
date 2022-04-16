@@ -9,7 +9,7 @@ void sapxep(int a[100], int n){
 		      a[i] = a[j];
 		      a[j] =tg;
 	 	  } 
-		}      
+	  }      
 	}
 }	
 int main(){
