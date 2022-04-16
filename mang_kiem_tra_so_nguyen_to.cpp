@@ -9,13 +9,13 @@ bool songuyento(int n){
 	for(int i = 2; i <= sqrt(n); i++){
 	    if(n % i == 0){
 		    count ++;
-		}
+	    }
 	}
 	if( count == 0){
 	    return true;
 	} else{
 		return false;
-	}				
+	  }				
 }
 int main(){
 	int n;
@@ -25,7 +25,7 @@ int main(){
 		cout << "day la so nguyen to" << endl;
 	}else{
 		cout << "day khong phai la so nguyen to" << endl;
-	}	
+	 }	
 	return 0;
 }	
 	
