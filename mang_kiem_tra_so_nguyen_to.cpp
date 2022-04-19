@@ -15,7 +15,7 @@ bool songuyento(int n){
 	    return true;
 	} else{
 		return false;
-	}				
+	  }				
 }
 int main(){
 	int n;
@@ -25,7 +25,7 @@ int main(){
 		cout << "day la so nguyen to" << endl;
 	}else{
 		cout << "day khong phai la so nguyen to" << endl;
-	}	
+	 }	
 	return 0;
 }	
 	

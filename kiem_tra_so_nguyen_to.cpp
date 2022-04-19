@@ -18,6 +18,6 @@ int main(){
 	    cout <<"day la so nguyen to" << endl;
 	} else{
 		cout << "day khong phai la so nguyen to" << endl;
-	}				
+	  }				
 }	
 
