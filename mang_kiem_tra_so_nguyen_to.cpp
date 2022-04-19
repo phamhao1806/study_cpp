@@ -9,7 +9,7 @@ bool songuyento(int n){
 	for(int i = 2; i <= sqrt(n); i++){
 	    if(n % i == 0){
 		    count ++;
-		}
+	    }
 	}
 	if( count == 0){
 	    return true;
