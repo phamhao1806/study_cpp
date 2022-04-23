@@ -24,8 +24,8 @@ int main(){
         if(a[1][j]> max){
            max= a[1][j];
         }
-	  }
-	}  
+      }
+    }  
     printf("gia tri max cua hang 1 la %7d", max);
 }    
   
