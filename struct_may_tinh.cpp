@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-#include<malloc.h>
+#include<stdlib.h>
 struct maytinh
 {
     char mamay[30];
