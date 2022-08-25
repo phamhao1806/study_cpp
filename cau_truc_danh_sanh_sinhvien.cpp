@@ -2,6 +2,7 @@
 #include<string.h>
 #include<malloc.h>
 
+
 struct sinhvien
 {
     char masv[30];
