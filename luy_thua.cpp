@@ -1,6 +1,7 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
+
 int kiemtra(int n){
 	int dem=0;
 	for(int i=0;i<=n;i++){
