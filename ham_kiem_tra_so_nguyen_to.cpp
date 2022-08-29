@@ -18,7 +18,7 @@ int kiemtra(int n){
 	}else{
 		cout << n << " khong la so nguyen to" << endl;
 	}
-	return n;
+	return 0;
 }
 
 int main(){
