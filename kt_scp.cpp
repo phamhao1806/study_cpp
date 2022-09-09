@@ -3,15 +3,16 @@
 #include<math.h>   
 using namespace std;
 bool kt_scp(int n){
-    if(n<1)
+    if(n<1){
         return false;
+    }
     int i = sqrt(n);
     if(i*i==n)
         return true;
     return false;
 }
 void in_scp(int n){
-    cout<<"Cac so chinh phuong nho hon "<<n<<endl;
+    cout<<"Cac so chinh phuong nho hon "<< n <<endl;
     int a = sqrt(n);
     if(kt_scp(n)){
         for(int i=1;i<a;i++){
@@ -19,7 +20,7 @@ void in_scp(int n){
         }
     }else{
         for(int i=1;i<=a;i++){
-            cout<<i*i<<" ";
+            cout<< i*i <<" ";
         }
     }
 }
