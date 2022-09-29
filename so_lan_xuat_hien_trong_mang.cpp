@@ -18,8 +18,8 @@ void hienthi(int a[], int n){
 void So_lan_xuat_hien(int a[], int n, int x)
 {
     int dem = 0;
-    for(int i=0; i<n; i++){
-        if(a[i]==x){
+    for(int i = 0; i < n; i++){
+        if(a[i] == x){
             dem = dem + 1;
         }
 	}
