@@ -37,9 +37,9 @@ int Min( int *a, int n ) {
 
 int TinhHieu( int *a, int n ) {
 	int h = 0;
-
+	for ( int i = 0; i < n; i++ ) {
 		h = Max( a, n) - Min( a, n );
-	
+	}
 	return h;
 }
 
