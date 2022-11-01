@@ -2,17 +2,17 @@
 #include<conio.h>
 #include<math.h> 
 
-bool SoHoanHao ( int n , int x)
+bool SoHoanHao ( int n )
 {    
     int s = 0;
-    for( int i = 1 ; i < x ; i++)
+    for( int i = 1 ; i < n ; i++)
     {
-        if ( x % i == 0 )
+        if ( n % i == 0 )
         {
             s = s + i;
         }        
     } 
-    if( s==x )
+    if( s == n )
     {
         return true;
     }
@@ -29,7 +29,7 @@ int main ()
 	scanf ( "%d", &n );
 	int x;
 	scanf( "%d", &x);
-	if ( SoHoanHao( n, x ) == true ) 
+	if ( SoHoanHao( n ) == true ) 
 	{
 		printf( "Day la so hoan hao" );
 	} else 
